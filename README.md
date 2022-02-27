@@ -35,11 +35,11 @@ The main application is Add-a-day, which sets the date to 2022-01-01 00:00:00 th
 ## I don't understand, what the heck are you talking about?
 Ok let's see an example real quick:
 
-Pokemon Unbound is one of the best hack rom ever published. It allows you to see the date of the last save from the save screen. If you try to save the game normally, when you go to save again you will see that the last save always has the same date, that is 2070-01-01, because the game does not support the years 19XX and therefore recognizes 1970 as 2070. This breaks the game and time-based events because every time you play the game the date will be locked to 2070-01-01.
+Pokemon Unbound is one of the best hack rom ever published. Among other things, it allows you to see the date of the last save from the save screen. If you try to save the game normally, when you go to save again you will see that the last save always has the same date, that is 2070-01-01, because the game does not support the years 19XX and therefore recognizes 1970 as 2070. This breaks the game and time-based events because every time you play the game the date will be locked to 2070-01-01.
 
 <img src="https://user-images.githubusercontent.com/44671856/155880160-896d51be-bdf5-41af-aebe-7a11f2f72598.png" width=40% height=40%>
 
-Every time you boot up your Miyoo Mini, you have to start Add-a-day to set the current date.
+Every time you boot up your Miyoo Mini, if you want to play a game with RTC events, you have to start Add-a-day to set the current date.
 This is **extremely important**! If you forget to set the date before playing and then save the game, the date will be reset 
 to 2070-01-01 and when you then start Add-a-day and play the game it will warn you that a problem has been detected with RTC 
 and therefore all time-based events will stop working until 2070-01-01.
