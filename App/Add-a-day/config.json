@@ -3,5 +3,5 @@
 "icon":"icon.png",
 "iconsel":"icon.png",
 "launch":"launch.sh",
-"description":"Adds a day to the emulated date"
+"description":"Adds a day to the emulated date."
 }
